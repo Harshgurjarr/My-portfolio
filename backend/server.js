@@ -13,7 +13,7 @@ const corsOptions = {
   origin: [
     "http://localhost:3000",                         
     "http://localhost:3001",                           
-    "https://68b9742c73977d36b0b3ee53--harsh-portfolio-r.netlify.app" 
+    "https://harsh-portfolio-r.netlify.app" 
   ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
