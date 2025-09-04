@@ -10,7 +10,7 @@ import colorSharp from "../assets/img/color-sharp.png"
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
+     
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -38,27 +38,27 @@ export const Skills = () => {
                         <p>I enjoy working across the full stack, from crafting visually appealing interfaces to ensuring efficient backend logic. My focus is on writing clean, maintainable code and constantly learning new tools to stay ahead in the fast-changing tech world.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1}  />
+                                <img src={meter1} alt="Image" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2}  />
+                                <img src={meter2} alt="Image" />
                                 <h5>Brand Identity</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3}  />
+                                <img src={meter3} alt="Image" />
                                 <h5>Logo Design</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} />
-                                <h5>Web Development</h5>
+                                <img src={meter1} alt="Image"/>
+                                <h5>Problem Solving</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp}  />
+        <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   )
 }
