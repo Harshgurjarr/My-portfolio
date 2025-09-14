@@ -33,8 +33,8 @@ app.use(express.urlencoded({ extended: true }));
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER || "harshgurjar590@gmail.com",
-    pass: process.env.EMAIL_PASS || "sbbf shui gmbg gfff"  
+    user: process.env.EMAIL_USER || "",
+    pass: process.env.EMAIL_PASS || ""  
   },
 });
 
